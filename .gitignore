@@ -1,0 +1,37 @@
+# Folder privates
+yay
+xfce4
+volumeicon
+totem
+Thunar
+Termius
+pulse
+Postman
+obs-studio
+nautilus
+ibus
+goa-1.0
+Electron
+evolution
+discordsecurity
+discord
+dconf
+cubocore
+coreapps
+code-oss
+Code - OSS
+cef_user_data
+BraveSoftware
+autostart
+QtProject.conf
+
+# Files privates
+pavucontrol.ini 
+mimeapps.list 
+dleyna-renderer-service.conf  
+user-dirs.dirs 
+user-dirs.locale
+
+# Multiples files innecesarys
+node_modules
+__pycache__
