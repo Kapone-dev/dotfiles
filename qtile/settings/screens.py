@@ -7,7 +7,7 @@ screens = [
     Screen(
         top=Bar(
             groups_widgets,
-            24,
+            28,
         ),
     ),
 ]

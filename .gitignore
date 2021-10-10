@@ -24,6 +24,7 @@ cef_user_data
 BraveSoftware
 autostart
 QtProject.conf
+protonvpn
 
 # Files privates
 pavucontrol.ini 

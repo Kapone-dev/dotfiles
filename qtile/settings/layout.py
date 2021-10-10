@@ -4,7 +4,7 @@ from libqtile.config import Match
 layout_conf = {
     'border_focus': "#81a1c1",
     'border_width': 1,
-    'margin': 4
+    'margin': 8
 }
 
 layouts = [
