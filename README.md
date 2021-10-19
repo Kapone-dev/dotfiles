@@ -13,3 +13,4 @@ __This configuration was based in [Antonio Sarosi](https://github.com/antoniosar
 | Network Manager | Internet connection |
 | Picom | Composer |
 | Rofi | App launcher |
+| Alacritty | Terminal |

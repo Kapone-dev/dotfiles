@@ -25,6 +25,9 @@ BraveSoftware
 autostart
 QtProject.conf
 protonvpn
+lunarclient
+chromium
+runjs
 
 # Files privates
 pavucontrol.ini 
@@ -32,6 +35,7 @@ mimeapps.list
 dleyna-renderer-service.conf  
 user-dirs.dirs 
 user-dirs.locale
+zoomus.conf
 
 # Multiples files innecesarys
 node_modules

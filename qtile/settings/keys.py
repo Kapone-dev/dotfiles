@@ -59,6 +59,9 @@ keys = [
     # Screenshots
     Key([mod], "s", lazy.spawn("scrot -e 'xclip -selection clipboard -t image/png -i $f' -s -f")),
 
+    # Open the browser
+    Key([mod], "b", lazy.spawn("brave")),
+
     # Volume (LOW, MORE AND MUTE)
     Key([], "XF86AudioLowerVolume", lazy.spawn("pamixer --decrease 5")),
     Key([], "XF86AudioRaiseVolume", lazy.spawn("pamixer --increase 5")),
