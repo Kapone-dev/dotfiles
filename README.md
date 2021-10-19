@@ -14,3 +14,4 @@ __This configuration was based in [Antonio Sarosi](https://github.com/antoniosar
 | Picom | Composer |
 | Rofi | App launcher |
 | Alacritty | Terminal |
+| Nvim | Text editor |
