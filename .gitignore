@@ -36,6 +36,7 @@ dleyna-renderer-service.conf
 user-dirs.dirs 
 user-dirs.locale
 zoomus.conf
+Code
 
 # Multiples files innecesarys
 node_modules
