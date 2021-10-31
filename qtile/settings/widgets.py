@@ -12,8 +12,8 @@ extension_defaults = widget_defaults.copy()
 
 def base(fg='text', bg='dark'): 
     return {
-        'foreground': colors["text"],
-        'background': colors["focus"]
+        'foreground': colors[fg],
+        'background': colors[bg]
     }
 
 def separator():
@@ -26,6 +26,15 @@ def icon(fg='text', bg='dark', fontsize=16, text="?"):
         text=text,
         padding=3
     )
+
+def powerline(fg="light", bg="dark"):
+    return widget.TextBox(
+        **base(fg, bg),
+        text="", # Icon: nf-oct-triangle_left
+        fontsize=37,
+        padding=-2
+    )
+
 
 
 groups_widgets = [
@@ -47,20 +56,33 @@ groups_widgets = [
     widget.Prompt(
         fontsize=18
     ),
+
     widget.WindowName(
         fontsize=14,
         max_chars=30
     ),
+
+    powerline('color5', 'dark'),
     widget.CurrentLayout(
-        background=colors["focus"],
+        background=colors["color5"],
         foreground=colors["text"],
         padding=5
     ),
 
-    icon(bg="focus", text=' '), # Icon: nf-fa-download
-
+    powerline('color3', 'color5'),
+    icon(bg="color3", text=' '),  # Icon: nf-fa-feed
+    widget.Net(
+        interface="wlp4s0",
+        format='{down} ↓↑ {up}',
+        padding=5,
+        background=colors["color3"],
+        foreground=colors["text"]
+    ),
+    
+    powerline('color4', 'color3'),
+    icon(bg="color4", text=' '), # Icon: nf-fa-download
     widget.CheckUpdates(
-        background=colors['focus'],
+        background=colors['color4'],
         colour_have_updates=colors['text'],
         colour_no_updates=colors['text'],
         no_update_string='0',
@@ -69,15 +91,15 @@ groups_widgets = [
         custom_command='checkupdates',
     ),
 
-    separator(),
-
+    powerline('color1', 'color4'),
     widget.Systray(
-        background=colors["focus"]
+        background=colors["color1"]
     ),
-    separator(),
+
+    powerline('color2', 'color1'),
     widget.Clock(
         format='%d/%m/%y - %H:%M',
-        background=colors["focus"],
+        background=colors["color2"],
         foreground=colors["text"]
     ),
 ]

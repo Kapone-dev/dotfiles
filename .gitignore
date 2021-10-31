@@ -37,6 +37,7 @@ user-dirs.dirs
 user-dirs.locale
 zoomus.conf
 Code
+electron
 
 # Multiples files innecesarys
 node_modules
