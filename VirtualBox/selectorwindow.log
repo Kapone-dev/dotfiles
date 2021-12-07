@@ -1,0 +1,18 @@
+00:00:00.133374 VirtualBox GUI VM Selector Window 6.1.30 r148432 linux.amd64 (Nov 22 2021 19:44:56) release log
+00:00:00.133376 Log opened 2021-11-30T23:34:20.422393000Z
+00:00:00.133377 Build Type: release
+00:00:00.133378 OS Product: Linux
+00:00:00.133379 OS Release: 5.15.5-arch1-1
+00:00:00.133380 OS Version: #1 SMP PREEMPT Thu, 25 Nov 2021 22:09:33 +0000
+00:00:00.133399 DMI Product Name: Nitro AN515-43
+00:00:00.133405 DMI Product Version: V1.12
+00:00:00.133409 Firmware type: UEFI
+00:00:00.133592 Secure Boot: Disabled
+00:00:00.133627 Host RAM: 13986MB (13.6GB) total, 12398MB (12.1GB) available
+00:00:00.133630 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.133630 Process ID: 9134
+00:00:00.133631 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.133669 Qt version: 5.15.2
+00:00:00.142036 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.142060 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.470880 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x28 x 1920x1052

@@ -3,7 +3,7 @@ from libqtile.lazy import lazy
 
 from settings.keys import keys, mod
 
-groups = [Group(i) for i in [" 爵 ", "  ", "  ", "  ", "  "]]
+groups = [Group(i) for i in [" 爵 ", "  ", "  ", "  ", "  ", " ﭮ " ,"  "]]
 
 for i, group in enumerate(groups):
     actual_key = str(i + 1)
