@@ -1,11 +1,8 @@
-# Opacity for Alacritty
-background_opacity: 0.8
-
 # Colors (Gruvbox dark)
 colors:
   primary:
     # hard contrast background - '#1d2021'
-    background: &gruvbox_dark_bg "#3B4252"
+    background: &gruvbox_dark_bg "#0a181b"
     # soft contrast background - '#32302f'
     foreground: "#D8DEE9"
     bright_foreground: "#fbf1c7"
@@ -73,9 +70,10 @@ font:
     family: Monospace
     style: Bold
 
-  size: 20
+  size: 12
 # Padding Settings
 window:
+  opacity: 0.3
   padding:
     x: 5
     y: 5

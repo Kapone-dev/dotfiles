@@ -38,6 +38,8 @@ user-dirs.locale
 zoomus.conf
 Code
 electron
+spotify
+VirtualBox
 
 # Multiples files innecesarys
 node_modules
